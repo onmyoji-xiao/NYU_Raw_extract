@@ -2,7 +2,7 @@ datasetDir = 'J:/NYU';
 sceneName = 'bedrooms_part1/bedroom_0001';
 targetDir='J:/NYU/RawData';
 sceneDir =[datasetDir,'/',sceneName];
-disp(sceneDir)
+
 frameList = get_synched_frames(sceneDir);
 n=0;
 mkdir([targetDir,'/',sceneName,'/rgb']);
